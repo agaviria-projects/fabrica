@@ -25,3 +25,7 @@ def crearPieza(id, referencia, descripcion, precio, numeroFabricadas, numeroDefe
         "fechaEnvio": fechaEnvio
     }
     return pieza
+
+def verPedido(lista):
+    for pieza in lista:
+        print(pieza)
